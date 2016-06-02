@@ -4,10 +4,8 @@
 int main(int argc, char *argv[])
 {
     char *Blatt = argv[1], *Aufgabe = argv[2], *Thema = argv[3];
-    //scanf("%i %i", &Blatt, &Aufgabe);
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
-    //printf("%s\n", asctime(tm));
     printf("/********************************/\n");
     printf("/* Benedikt Abel, Justus Faust  */\n");
     printf("/* Gruppe: Di08                 */\n");
