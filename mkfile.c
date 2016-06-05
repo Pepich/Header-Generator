@@ -14,6 +14,7 @@ int main(int argc, char *argv[])
     printf("/* Version: v1.0.0              */\n");
     printf("/* Datum: %i%.2i%.2i              */\n", tm.tm_year+1900, tm.tm_mon+1, tm.tm_mday);
     printf("/* Status: WIP                  */\n");
-    printf("/********************************/\n");
+    printf("/********************************/\n\n");
+    printf("int main(void)\n{\n\t\n}\n");
     return 0;
 }
